@@ -1,9 +1,11 @@
+
 package com.cygent.utils;
 
 abstract class car
 {
 	 public   abstract  void honda();
-	 
+	 public   abstract  void honda1(); 
+	 public   abstract  void honda2();
 }
 
 class a extends car
@@ -12,6 +14,18 @@ class a extends car
 	@Override
 	public  void honda() 
 	{
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void honda1() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void honda2() {
 		// TODO Auto-generated method stub
 		
 	}
