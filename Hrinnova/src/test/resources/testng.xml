@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Login" verbose="1">
+	<listeners>
+		<listener class-name="com.cygent.utils.MyCustomListener" />
+	</listeners>
+	<!-- <test name="Verify Login"> <classes> <class name="com.cygnet.test.HrinnovaLogin" 
+		/> </classes> </test> -->
+	<!-- <test name="Alert"> <classes> <class name="com.cygnet.test.Alert" /> 
+		</classes> </test> -->
+	<test name="Basic Element">
+		<classes>
+			<class name="com.cygnet.test.BasicElement" />
+
+
+		</classes>
+
+	</test>
+
+
+</suite>
